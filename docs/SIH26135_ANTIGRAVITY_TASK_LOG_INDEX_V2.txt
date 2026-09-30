@@ -1,0 +1,490 @@
+SIH26135_ANTIGRAVITY_TASK_LOG_INDEX_V2
+========================================
+
+1. PROJECT STATISTICS
+Total brain folders scanned: 24
+Total task logs discovered: 106
+Total task logs classified as SIH26135: 74
+Total unrelated task logs: 32
+Total uncertain logs: 0
+Number of distinct conversations: 11
+
+2. MASTER CHRONOLOGICAL INVENTORY
+| # | Date/Time | Mission/Phase | Task ID | Conversation Folder | Purpose | Result | Relationship | Path |
+| - | --------- | ------------- | ------- | ------------------- | ------- | ------ | ------------ | ---- |
+| 1 | 2026-09-27 11:55:03 | Other SIH26135 Work | task-63 | 574b2151-50ed-4d9e-b33b-126ad05a6119 | Modify files / Code editing | SUCCESS | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\574b2151-50ed-4d9e-b33b-126ad05a6119\.system_generated\tasks\task-63.log |
+| 2 | 2026-09-27 12:35:39 | Other SIH26135 Work | task-34 | 44494a5d-a543-4cca-ae5d-3b61efb5c9b9 | Modify files / Code editing | SUCCESS | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\44494a5d-a543-4cca-ae5d-3b61efb5c9b9\.system_generated\tasks\task-34.log |
+| 3 | 2026-09-27 15:50:30 | Other SIH26135 Work | task-45 | 1081e04a-e976-4035-8095-33193d03d984 | Modify files / Code editing | FAILED | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\1081e04a-e976-4035-8095-33193d03d984\.system_generated\tasks\task-45.log |
+| 4 | 2026-09-27 15:50:30 | Other SIH26135 Work | task-64 | 574b2151-50ed-4d9e-b33b-126ad05a6119 | Modify files / Code editing | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\574b2151-50ed-4d9e-b33b-126ad05a6119\.system_generated\tasks\task-64.log |
+| 5 | 2026-09-27 16:16:01 | Mission 1 - Trainee Authentication | task-42 | 9041c010-56a4-420d-be35-f6d34d25a5bc | Run tests | FAILED | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9041c010-56a4-420d-be35-f6d34d25a5bc\.system_generated\tasks\task-42.log |
+| 6 | 2026-09-27 16:16:58 | Mission 1 - Trainee Authentication | task-55 | 9041c010-56a4-420d-be35-f6d34d25a5bc | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9041c010-56a4-420d-be35-f6d34d25a5bc\.system_generated\tasks\task-55.log |
+| 7 | 2026-09-27 17:16:31 | Mission 1 - Trainee Authentication | task-18 | 8255586e-3fd4-4ff4-af62-9868c7a044df | Run tests | SUCCESS | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\8255586e-3fd4-4ff4-af62-9868c7a044df\.system_generated\tasks\task-18.log |
+| 8 | 2026-09-27 17:17:53 | Mission 1 - Trainee Authentication | task-34 | 8255586e-3fd4-4ff4-af62-9868c7a044df | Run tests | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\8255586e-3fd4-4ff4-af62-9868c7a044df\.system_generated\tasks\task-34.log |
+| 9 | 2026-09-27 17:26:48 | Mission 1 - Trainee Authentication | task-49 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | SUCCESS | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-49.log |
+| 10 | 2026-09-27 17:27:28 | Mission 2 - Identity + Consent | task-55 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-55.log |
+| 11 | 2026-09-27 17:27:47 | Mission 2 - Identity + Consent | task-62 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-62.log |
+| 12 | 2026-09-27 17:37:27 | Mission 2 - Identity + Consent | task-104 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-104.log |
+| 13 | 2026-09-27 17:38:27 | Mission 2 - Identity + Consent | task-123 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-123.log |
+| 14 | 2026-09-27 17:40:17 | Mission 2 - Identity + Consent | task-160 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-160.log |
+| 15 | 2026-09-27 17:41:31 | Mission 2 - Identity + Consent | task-176 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-176.log |
+| 16 | 2026-09-27 17:42:06 | Mission 2 - Identity + Consent | task-193 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-193.log |
+| 17 | 2026-09-27 17:55:03 | Mission 2 - Identity + Consent | task-231 | f393f5d6-f004-43b5-af06-827369d41519 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-231.log |
+| 18 | 2026-09-27 19:06:41 | Mission 3 - Training + Enrollment | task-50 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | FAILED | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-50.log |
+| 19 | 2026-09-27 19:10:49 | Mission 3 - Training + Enrollment | task-54 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run Prisma migration | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-54.log |
+| 20 | 2026-09-27 19:11:51 | Mission 3 - Training + Enrollment | task-68 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run Prisma migration | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-68.log |
+| 21 | 2026-09-27 19:12:16 | Other SIH26135 Work | task-77 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Modify files / Code editing | SUCCESS | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-77.log |
+| 22 | 2026-09-27 19:12:31 | Mission 3 - Training + Enrollment | task-80 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run Prisma migration | FAILED | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-80.log |
+| 23 | 2026-09-27 19:14:38 | Mission 3 - Training + Enrollment | task-95 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run Prisma migration | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-95.log |
+| 24 | 2026-09-27 19:16:25 | Mission 3 - Training + Enrollment | task-111 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Modify files / Code editing | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-111.log |
+| 25 | 2026-09-27 19:17:57 | Mission 3 - Training + Enrollment | task-124 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run Prisma migration | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-124.log |
+| 26 | 2026-09-27 19:21:35 | Mission 3 - Training + Enrollment | task-172 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Modify files / Code editing | SUCCESS | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-172.log |
+| 27 | 2026-09-27 19:22:15 | Mission 3 - Training + Enrollment | task-179 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | FAILED | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-179.log |
+| 28 | 2026-09-27 19:25:19 | Mission 3 - Training + Enrollment | task-209 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-209.log |
+| 29 | 2026-09-27 19:26:48 | Mission 3 - Training + Enrollment | task-221 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-221.log |
+| 30 | 2026-09-28 00:16:13 | Other SIH26135 Work | task-319 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Modify files / Code editing | SUCCESS | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-319.log |
+| 31 | 2026-09-28 00:25:30 | Mission 3 - Training + Enrollment | task-344 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | FAILED | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-344.log |
+| 32 | 2026-09-28 00:28:15 | Mission 3 - Training + Enrollment | task-353 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-353.log |
+| 33 | 2026-09-28 00:32:23 | Mission 3 - Training + Enrollment | task-390 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-390.log |
+| 34 | 2026-09-28 00:33:39 | Mission 3 - Training + Enrollment | task-412 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-412.log |
+| 35 | 2026-09-28 00:34:24 | Mission 3 - Training + Enrollment | task-425 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Run tests | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-425.log |
+| 36 | 2026-09-28 00:37:41 | Mission 3 - Training + Enrollment | task-454 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Modify files / Code editing | FAILED | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-454.log |
+| 37 | 2026-09-28 01:13:23 | Mission 3 - Training + Enrollment | task-553 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Modify files / Code editing | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-553.log |
+| 38 | 2026-09-28 01:15:04 | Mission 3 - Training + Enrollment | task-563 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Modify files / Code editing | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-563.log |
+| 39 | 2026-09-28 01:24:13 | Mission 3 - Training + Enrollment | task-576 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | Modify files / Code editing | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-576.log |
+| 40 | 2026-09-28 02:25:17 | Mission 3 - Training + Enrollment | task-9 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | Run Prisma migration | SUCCESS | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-9.log |
+| 41 | 2026-09-28 02:29:30 | Mission 3 - Training + Enrollment | task-36 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | Modify files / Code editing | FAILED | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-36.log |
+| 42 | 2026-09-28 02:47:05 | Mission 4 - Assessment + Certification + Skills | task-81 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | Run tests | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-81.log |
+| 43 | 2026-09-28 03:35:23 | Mission 4 - Assessment + Certification + Skills | task-147 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-147.log |
+| 44 | 2026-09-28 03:36:17 | Mission 4 - Assessment + Certification + Skills | task-160 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-160.log |
+| 45 | 2026-09-28 03:39:20 | Mission 4 - Assessment + Certification + Skills | task-178 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | Run tests | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-178.log |
+| 46 | 2026-09-28 04:19:09 | Other SIH26135 Work | task-25 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Modify files / Code editing | SUCCESS | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-25.log |
+| 47 | 2026-09-28 04:22:32 | Mission 4 - Assessment + Certification + Skills | task-35 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Run tests | SUCCESS | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-35.log |
+| 48 | 2026-09-28 04:34:03 | Mission 4 - Assessment + Certification + Skills | task-59 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Modify files / Code editing | SUCCESS | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-59.log |
+| 49 | 2026-09-28 04:38:08 | Mission 4 - Assessment + Certification + Skills | task-66 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Run tests | SUCCESS | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-66.log |
+| 50 | 2026-09-28 18:08:23 | Mission 4 - Assessment + Certification + Skills | task-161 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-161.log |
+| 51 | 2026-09-28 18:08:44 | Mission 4 - Assessment + Certification + Skills | task-176 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Modify files / Code editing | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-176.log |
+| 52 | 2026-09-28 18:10:55 | Mission 4 - Assessment + Certification + Skills | task-199 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Run tests | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-199.log |
+| 53 | 2026-09-28 18:12:11 | Mission 4 - Assessment + Certification + Skills | task-217 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Modify files / Code editing | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-217.log |
+| 54 | 2026-09-28 18:14:24 | Mission 4 - Assessment + Certification + Skills | task-224 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Run tests | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-224.log |
+| 55 | 2026-09-28 18:16:21 | Mission 4 - Assessment + Certification + Skills | task-243 | 9ced5549-9739-4540-b7da-716ef89e7b7c | Run tests | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-243.log |
+| 56 | 2026-09-28 18:18:42 | Mission 4 - Assessment + Certification + Skills | task-14 | 5c66a6f6-460e-4ac9-a76c-32148e7449e4 | Run tests | SUCCESS | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-14.log |
+| 57 | 2026-09-28 18:21:38 | Mission 4 - Assessment + Certification + Skills | task-28 | 5c66a6f6-460e-4ac9-a76c-32148e7449e4 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-28.log |
+| 58 | 2026-09-28 18:25:20 | Mission 4 - Assessment + Certification + Skills | task-41 | 5c66a6f6-460e-4ac9-a76c-32148e7449e4 | Run tests | SUCCESS | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-41.log |
+| 59 | 2026-09-29 05:32:55 | Mission 5A - Domain Correction | task-46 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | FAILED | ORIGINAL | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-46.log |
+| 60 | 2026-09-29 05:33:40 | Mission 5A - Domain Correction | task-58 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-58.log |
+| 61 | 2026-09-29 05:34:41 | Mission 5A - Domain Correction | task-76 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-76.log |
+| 62 | 2026-09-29 05:36:05 | Mission 5A - Domain Correction | task-85 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run tests | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-85.log |
+| 63 | 2026-09-29 05:36:35 | Mission 5A - Domain Correction | task-91 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-91.log |
+| 64 | 2026-09-29 05:37:10 | Mission 5A - Domain Correction | task-100 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run tests | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-100.log |
+| 65 | 2026-09-29 05:37:34 | Mission 5A - Domain Correction | task-106 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-106.log |
+| 66 | 2026-09-29 05:38:15 | Mission 5A - Domain Correction | task-118 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run tests | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-118.log |
+| 67 | 2026-09-29 06:23:46 | Mission 5A - Domain Correction | task-161 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | FAILED | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-161.log |
+| 68 | 2026-09-29 06:24:08 | Mission 5A - Domain Correction | task-181 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-181.log |
+| 69 | 2026-09-29 06:35:00 | Mission 5A - Domain Correction | task-201 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-201.log |
+| 70 | 2026-09-29 06:36:42 | Mission 5A - Domain Correction | task-211 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | FAILED | RETRY | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-211.log |
+| 71 | 2026-09-29 06:39:38 | Mission 1 - Trainee Authentication | task-250 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Modify files / Code editing | SUCCESS | REMEDIATION | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-250.log |
+| 72 | 2026-09-29 06:44:11 | Mission 5A - Domain Correction | task-278 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | SUCCESS | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-278.log |
+| 73 | 2026-09-29 07:16:55 | Mission 5A - Domain Correction | task-298 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Modify files / Code editing | SUCCESS | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-298.log |
+| 74 | 2026-09-29 07:57:21 | Mission 5A - Domain Correction | task-333 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | Run Prisma migration | SUCCESS | FOLLOW-UP | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-333.log |
+
+
+3. MISSION-WISE GROUPING
+
+MISSION 1 - TRAINEE AUTHENTICATION
+--------------------
+task-42 | 2026-09-27 16:16:01 | Run tests | FAILED
+task-55 | 2026-09-27 16:16:58 | Run tests | FAILED
+task-18 | 2026-09-27 17:16:31 | Run tests | SUCCESS
+task-34 | 2026-09-27 17:17:53 | Run tests | SUCCESS
+task-49 | 2026-09-27 17:26:48 | Run tests | SUCCESS
+task-250 | 2026-09-29 06:39:38 | Modify files / Code editing | SUCCESS
+
+MISSION 2 - IDENTITY + CONSENT
+--------------------
+task-55 | 2026-09-27 17:27:28 | Run tests | FAILED
+task-62 | 2026-09-27 17:27:47 | Run tests | SUCCESS
+task-104 | 2026-09-27 17:37:27 | Run tests | FAILED
+task-123 | 2026-09-27 17:38:27 | Run tests | FAILED
+task-160 | 2026-09-27 17:40:17 | Run tests | FAILED
+task-176 | 2026-09-27 17:41:31 | Run tests | FAILED
+task-193 | 2026-09-27 17:42:06 | Run tests | SUCCESS
+task-231 | 2026-09-27 17:55:03 | Run tests | FAILED
+
+MISSION 3 - TRAINING + ENROLLMENT
+--------------------
+task-50 | 2026-09-27 19:06:41 | Run tests | FAILED
+task-54 | 2026-09-27 19:10:49 | Run Prisma migration | FAILED
+task-68 | 2026-09-27 19:11:51 | Run Prisma migration | FAILED
+task-80 | 2026-09-27 19:12:31 | Run Prisma migration | FAILED
+task-95 | 2026-09-27 19:14:38 | Run Prisma migration | FAILED
+task-111 | 2026-09-27 19:16:25 | Modify files / Code editing | FAILED
+task-124 | 2026-09-27 19:17:57 | Run Prisma migration | FAILED
+task-172 | 2026-09-27 19:21:35 | Modify files / Code editing | SUCCESS
+task-179 | 2026-09-27 19:22:15 | Run tests | FAILED
+task-209 | 2026-09-27 19:25:19 | Run tests | FAILED
+task-221 | 2026-09-27 19:26:48 | Run tests | SUCCESS
+task-344 | 2026-09-28 00:25:30 | Run tests | FAILED
+task-353 | 2026-09-28 00:28:15 | Run tests | FAILED
+task-390 | 2026-09-28 00:32:23 | Run tests | FAILED
+task-412 | 2026-09-28 00:33:39 | Run tests | FAILED
+task-425 | 2026-09-28 00:34:24 | Run tests | SUCCESS
+task-454 | 2026-09-28 00:37:41 | Modify files / Code editing | FAILED
+task-553 | 2026-09-28 01:13:23 | Modify files / Code editing | FAILED
+task-563 | 2026-09-28 01:15:04 | Modify files / Code editing | SUCCESS
+task-576 | 2026-09-28 01:24:13 | Modify files / Code editing | SUCCESS
+task-9 | 2026-09-28 02:25:17 | Run Prisma migration | SUCCESS
+task-36 | 2026-09-28 02:29:30 | Modify files / Code editing | FAILED
+
+MISSION 4 - ASSESSMENT + CERTIFICATION + SKILLS
+--------------------
+task-81 | 2026-09-28 02:47:05 | Run tests | FAILED
+task-147 | 2026-09-28 03:35:23 | Run tests | FAILED
+task-160 | 2026-09-28 03:36:17 | Run tests | FAILED
+task-178 | 2026-09-28 03:39:20 | Run tests | SUCCESS
+task-35 | 2026-09-28 04:22:32 | Run tests | SUCCESS
+task-59 | 2026-09-28 04:34:03 | Modify files / Code editing | SUCCESS
+task-66 | 2026-09-28 04:38:08 | Run tests | SUCCESS
+task-161 | 2026-09-28 18:08:23 | Run tests | FAILED
+task-176 | 2026-09-28 18:08:44 | Modify files / Code editing | FAILED
+task-199 | 2026-09-28 18:10:55 | Run tests | FAILED
+task-217 | 2026-09-28 18:12:11 | Modify files / Code editing | FAILED
+task-224 | 2026-09-28 18:14:24 | Run tests | FAILED
+task-243 | 2026-09-28 18:16:21 | Run tests | SUCCESS
+task-14 | 2026-09-28 18:18:42 | Run tests | SUCCESS
+task-28 | 2026-09-28 18:21:38 | Run tests | FAILED
+task-41 | 2026-09-28 18:25:20 | Run tests | SUCCESS
+
+MISSION 5A - DOMAIN CORRECTION
+--------------------
+task-46 | 2026-09-29 05:32:55 | Run Prisma migration | FAILED
+task-58 | 2026-09-29 05:33:40 | Run Prisma migration | FAILED
+task-76 | 2026-09-29 05:34:41 | Run Prisma migration | FAILED
+task-85 | 2026-09-29 05:36:05 | Run tests | FAILED
+task-91 | 2026-09-29 05:36:35 | Run Prisma migration | FAILED
+task-100 | 2026-09-29 05:37:10 | Run tests | FAILED
+task-106 | 2026-09-29 05:37:34 | Run tests | FAILED
+task-118 | 2026-09-29 05:38:15 | Run tests | FAILED
+task-161 | 2026-09-29 06:23:46 | Run Prisma migration | FAILED
+task-181 | 2026-09-29 06:24:08 | Run Prisma migration | FAILED
+task-201 | 2026-09-29 06:35:00 | Run Prisma migration | FAILED
+task-211 | 2026-09-29 06:36:42 | Run Prisma migration | FAILED
+task-278 | 2026-09-29 06:44:11 | Run Prisma migration | SUCCESS
+task-298 | 2026-09-29 07:16:55 | Modify files / Code editing | SUCCESS
+task-333 | 2026-09-29 07:57:21 | Run Prisma migration | SUCCESS
+
+OTHER SIH26135 WORK
+--------------------
+task-63 | 2026-09-27 11:55:03 | Modify files / Code editing | SUCCESS
+task-34 | 2026-09-27 12:35:39 | Modify files / Code editing | SUCCESS
+task-45 | 2026-09-27 15:50:30 | Modify files / Code editing | FAILED
+task-64 | 2026-09-27 15:50:30 | Modify files / Code editing | FAILED
+task-77 | 2026-09-27 19:12:16 | Modify files / Code editing | SUCCESS
+task-319 | 2026-09-28 00:16:13 | Modify files / Code editing | SUCCESS
+task-25 | 2026-09-28 04:19:09 | Modify files / Code editing | SUCCESS
+
+
+4. CONVERSATION-WISE GROUPING
+
+Conversation Folder: 1081e04a-e976-4035-8095-33193d03d984
+Missions: Other SIH26135 Work
+Earliest task: 2026-09-27 15:50:30
+Latest task: 2026-09-27 15:50:30
+Task IDs: task-45
+
+Conversation Folder: 21ac7ed2-4517-4c68-9c36-f1c5a8035502
+Missions: Mission 3 - Training + Enrollment, Other SIH26135 Work
+Earliest task: 2026-09-27 19:06:41
+Latest task: 2026-09-28 01:24:13
+Task IDs: task-50, task-54, task-68, task-77, task-80, task-95, task-111, task-124, task-172, task-179, task-209, task-221, task-319, task-344, task-353, task-390, task-412, task-425, task-454, task-553, task-563, task-576
+
+Conversation Folder: 44494a5d-a543-4cca-ae5d-3b61efb5c9b9
+Missions: Other SIH26135 Work
+Earliest task: 2026-09-27 12:35:39
+Latest task: 2026-09-27 12:35:39
+Task IDs: task-34
+
+Conversation Folder: 574b2151-50ed-4d9e-b33b-126ad05a6119
+Missions: Other SIH26135 Work
+Earliest task: 2026-09-27 11:55:03
+Latest task: 2026-09-27 15:50:30
+Task IDs: task-63, task-64
+
+Conversation Folder: 5c66a6f6-460e-4ac9-a76c-32148e7449e4
+Missions: Mission 4 - Assessment + Certification + Skills
+Earliest task: 2026-09-28 18:18:42
+Latest task: 2026-09-28 18:25:20
+Task IDs: task-14, task-28, task-41
+
+Conversation Folder: 67512af2-d78c-4020-9bd9-ba3f0e476376
+Missions: Mission 5A - Domain Correction, Mission 1 - Trainee Authentication
+Earliest task: 2026-09-29 05:32:55
+Latest task: 2026-09-29 07:57:21
+Task IDs: task-46, task-58, task-76, task-85, task-91, task-100, task-106, task-118, task-161, task-181, task-201, task-211, task-250, task-278, task-298, task-333
+
+Conversation Folder: 8255586e-3fd4-4ff4-af62-9868c7a044df
+Missions: Mission 1 - Trainee Authentication
+Earliest task: 2026-09-27 17:16:31
+Latest task: 2026-09-27 17:17:53
+Task IDs: task-18, task-34
+
+Conversation Folder: 9041c010-56a4-420d-be35-f6d34d25a5bc
+Missions: Mission 1 - Trainee Authentication
+Earliest task: 2026-09-27 16:16:01
+Latest task: 2026-09-27 16:16:58
+Task IDs: task-42, task-55
+
+Conversation Folder: 9ced5549-9739-4540-b7da-716ef89e7b7c
+Missions: Other SIH26135 Work, Mission 4 - Assessment + Certification + Skills
+Earliest task: 2026-09-28 04:19:09
+Latest task: 2026-09-28 18:16:21
+Task IDs: task-25, task-35, task-59, task-66, task-161, task-176, task-199, task-217, task-224, task-243
+
+Conversation Folder: f393f5d6-f004-43b5-af06-827369d41519
+Missions: Mission 1 - Trainee Authentication, Mission 2 - Identity + Consent
+Earliest task: 2026-09-27 17:26:48
+Latest task: 2026-09-27 17:55:03
+Task IDs: task-49, task-55, task-62, task-104, task-123, task-160, task-176, task-193, task-231
+
+Conversation Folder: fc0cb4af-6ffe-48b2-9a55-f090b61edd9f
+Missions: Mission 3 - Training + Enrollment, Mission 4 - Assessment + Certification + Skills
+Earliest task: 2026-09-28 02:25:17
+Latest task: 2026-09-28 03:39:20
+Task IDs: task-9, task-36, task-81, task-147, task-160, task-178
+
+
+5. FAILURE/REMEDIATION HISTORY
+
+Task ID: task-45 | Date: 2026-09-27 15:50:30 | Mission: Other SIH26135 Work
+Failure: FAILED
+Attempted: Modify files / Code editing
+Replaced/fixed by: UNKNOWN / NEVER RESOLVED
+
+Task ID: task-64 | Date: 2026-09-27 15:50:30 | Mission: Other SIH26135 Work
+Failure: FAILED
+Attempted: Modify files / Code editing
+Replaced/fixed by: UNKNOWN / NEVER RESOLVED
+
+Task ID: task-42 | Date: 2026-09-27 16:16:01 | Mission: Mission 1 - Trainee Authentication
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: UNKNOWN / NEVER RESOLVED
+
+Task ID: task-55 | Date: 2026-09-27 16:16:58 | Mission: Mission 1 - Trainee Authentication
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: UNKNOWN / NEVER RESOLVED
+
+Task ID: task-55 | Date: 2026-09-27 17:27:28 | Mission: Mission 2 - Identity + Consent
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-62 (Run tests)
+
+Task ID: task-104 | Date: 2026-09-27 17:37:27 | Mission: Mission 2 - Identity + Consent
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-193 (Run tests)
+
+Task ID: task-123 | Date: 2026-09-27 17:38:27 | Mission: Mission 2 - Identity + Consent
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-193 (Run tests)
+
+Task ID: task-160 | Date: 2026-09-27 17:40:17 | Mission: Mission 2 - Identity + Consent
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-193 (Run tests)
+
+Task ID: task-176 | Date: 2026-09-27 17:41:31 | Mission: Mission 2 - Identity + Consent
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-193 (Run tests)
+
+Task ID: task-231 | Date: 2026-09-27 17:55:03 | Mission: Mission 2 - Identity + Consent
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: UNKNOWN / NEVER RESOLVED
+
+Task ID: task-50 | Date: 2026-09-27 19:06:41 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-172 (Modify files / Code editing)
+
+Task ID: task-54 | Date: 2026-09-27 19:10:49 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-172 (Modify files / Code editing)
+
+Task ID: task-68 | Date: 2026-09-27 19:11:51 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-172 (Modify files / Code editing)
+
+Task ID: task-80 | Date: 2026-09-27 19:12:31 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-172 (Modify files / Code editing)
+
+Task ID: task-95 | Date: 2026-09-27 19:14:38 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-172 (Modify files / Code editing)
+
+Task ID: task-111 | Date: 2026-09-27 19:16:25 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Modify files / Code editing
+Replaced/fixed by: task-172 (Modify files / Code editing)
+
+Task ID: task-124 | Date: 2026-09-27 19:17:57 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-172 (Modify files / Code editing)
+
+Task ID: task-179 | Date: 2026-09-27 19:22:15 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-221 (Run tests)
+
+Task ID: task-209 | Date: 2026-09-27 19:25:19 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-221 (Run tests)
+
+Task ID: task-344 | Date: 2026-09-28 00:25:30 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-425 (Run tests)
+
+Task ID: task-353 | Date: 2026-09-28 00:28:15 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-425 (Run tests)
+
+Task ID: task-390 | Date: 2026-09-28 00:32:23 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-425 (Run tests)
+
+Task ID: task-412 | Date: 2026-09-28 00:33:39 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-425 (Run tests)
+
+Task ID: task-454 | Date: 2026-09-28 00:37:41 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Modify files / Code editing
+Replaced/fixed by: task-563 (Modify files / Code editing)
+
+Task ID: task-553 | Date: 2026-09-28 01:13:23 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Modify files / Code editing
+Replaced/fixed by: task-563 (Modify files / Code editing)
+
+Task ID: task-36 | Date: 2026-09-28 02:29:30 | Mission: Mission 3 - Training + Enrollment
+Failure: FAILED
+Attempted: Modify files / Code editing
+Replaced/fixed by: UNKNOWN / NEVER RESOLVED
+
+Task ID: task-81 | Date: 2026-09-28 02:47:05 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-178 (Run tests)
+
+Task ID: task-147 | Date: 2026-09-28 03:35:23 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-178 (Run tests)
+
+Task ID: task-160 | Date: 2026-09-28 03:36:17 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-178 (Run tests)
+
+Task ID: task-161 | Date: 2026-09-28 18:08:23 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-243 (Run tests)
+
+Task ID: task-176 | Date: 2026-09-28 18:08:44 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Modify files / Code editing
+Replaced/fixed by: task-243 (Run tests)
+
+Task ID: task-199 | Date: 2026-09-28 18:10:55 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-243 (Run tests)
+
+Task ID: task-217 | Date: 2026-09-28 18:12:11 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Modify files / Code editing
+Replaced/fixed by: task-243 (Run tests)
+
+Task ID: task-224 | Date: 2026-09-28 18:14:24 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-243 (Run tests)
+
+Task ID: task-28 | Date: 2026-09-28 18:21:38 | Mission: Mission 4 - Assessment + Certification + Skills
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-41 (Run tests)
+
+Task ID: task-46 | Date: 2026-09-29 05:32:55 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-58 | Date: 2026-09-29 05:33:40 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-76 | Date: 2026-09-29 05:34:41 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-85 | Date: 2026-09-29 05:36:05 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-91 | Date: 2026-09-29 05:36:35 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-100 | Date: 2026-09-29 05:37:10 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-106 | Date: 2026-09-29 05:37:34 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-118 | Date: 2026-09-29 05:38:15 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run tests
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-161 | Date: 2026-09-29 06:23:46 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-181 | Date: 2026-09-29 06:24:08 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-201 | Date: 2026-09-29 06:35:00 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-278 (Run Prisma migration)
+
+Task ID: task-211 | Date: 2026-09-29 06:36:42 | Mission: Mission 5A - Domain Correction
+Failure: FAILED
+Attempted: Run Prisma migration
+Replaced/fixed by: task-278 (Run Prisma migration)

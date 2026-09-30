@@ -1,0 +1,41 @@
+                 KAUSHAL OUTCOME PLATFORM
+                          │
+        ┌─────────────────┼──────────────────┐
+        │                 │                  │
+        ▼                 ▼                  ▼
+     TRAINEE           EMPLOYER          PROGRAMME
+     SIGNALS           SIGNALS           DATA
+        │                 │                  │
+        └─────────────────┼──────────────────┘
+                          ▼
+                 IDENTITY + CONSENT
+                          │
+                          ▼
+                 OUTCOME TIMELINE
+                          │
+             ┌────────────┼─────────────┐
+             ▼            ▼             ▼
+          Employment   Self-employed  Apprenticeship
+             │            │             │
+             └────────────┼─────────────┘
+                          ▼
+                  VERIFICATION ENGINE
+                          │
+                          ▼
+                LONGITUDINAL DATASET
+                          │
+        ┌─────────────────┼──────────────────┐
+        ▼                 ▼                  ▼
+   Retention          Wage growth       Skill relevance
+        │                 │                  │
+        └─────────────────┼──────────────────┘
+                          ▼
+                   KAUSHAL LENS
+                          │
+       ┌──────────┬───────┼────────┬──────────┐
+       ▼          ▼       ▼        ▼          ▼
+     Cohort     Course  Provider District   Skill Gap
+     Analysis   Analysis Analysis Analysis  Analysis
+                          │
+                          ▼
+                  POLICY INTELLIGENCE

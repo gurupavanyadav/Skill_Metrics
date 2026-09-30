@@ -1,0 +1,618 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  TRAINEE
+  OPERATOR
+  ADMIN
+}
+
+enum ContactType {
+  PHONE
+  EMAIL
+}
+
+enum OtpPurpose {
+  LOGIN
+  PHONE_CHANGE
+}
+
+enum ConsentPurpose {
+  OUTCOME_TRACKING
+  FOLLOW_UP
+  EMPLOYMENT_VERIFICATION
+  ANALYTICS
+  CROSS_PROGRAMME_LINKING
+}
+
+enum ConsentState {
+  GRANTED
+  REVOKED
+}
+
+enum EmploymentType {
+  SALARIED
+  SELF_EMPLOYED
+  APPRENTICESHIP
+}
+
+enum EnrollmentStatus {
+  ENROLLED
+  IN_PROGRESS
+  COMPLETED
+  DROPPED_OUT
+  CANCELLED
+}
+
+enum BatchStatus {
+  PLANNED
+  ACTIVE
+  COMPLETED
+  CANCELLED
+}
+
+enum Status {
+  PENDING
+  COMPLETED
+  FAILED
+}
+
+enum AssessmentType {
+  WRITTEN
+  PRACTICAL
+  MIXED
+}
+
+enum AssessmentResult {
+  PASS
+  FAIL
+}
+
+enum CertificationStatus {
+  ISSUED
+  REVOKED
+  EXPIRED
+}
+
+enum AttainmentStatus {
+  CLAIMED
+  ASSESSED
+  CERTIFIED
+  VERIFIED
+  REVOKED
+  EXPIRED
+}
+
+enum EvidenceType {
+  ASSESSMENT
+  CERTIFICATION
+}
+
+enum ProvenanceSource {
+  GOVERNMENT_IMPORT
+  PROVIDER_IMPORT
+  PROGRAMME_IMPORT
+  ASSESSOR
+  CERTIFYING_AUTHORITY
+}
+
+enum CertificationAlignment {
+  COURSE_ALIGNED
+  EXTERNAL_CERTIFICATION
+}
+
+enum OutcomeLinkageStatus {
+  LINKED
+  UNLINKED
+  MANUALLY_LINKED
+}
+
+enum OutcomeSource {
+  TRAINEE_SELF_REPORT
+  EMPLOYER_REPORT
+  PLACEMENT_PARTNER
+  GOVERNMENT_REGISTRY
+  PROGRAMME_IMPORT
+  PROVIDER_IMPORT
+  OPERATOR_ENTRY
+}
+
+enum VerificationStatus {
+  PENDING
+  VERIFIED
+  REJECTED
+}
+
+enum CompensationType {
+  SALARY
+  STIPEND
+  SELF_EMPLOYMENT_INCOME
+}
+
+model User {
+  id        String    @id @default(uuid())
+  role      Role      @default(TRAINEE)
+  lastLogin DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  traineeProfile  Trainee?
+  operatorProfile Operator?
+}
+
+model Trainee {
+  id            String  @id @default(uuid())
+  userId        String  @unique
+  systemId      String  @unique // Identifier across programs
+  name          String
+  phone         String  @unique // Kept for compatibility/active login, though canonical is TraineeContact
+  demographics  Json? // Store gender, age, category, etc.
+  consentStatus Boolean @default(false)
+
+  user             User                     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  enrollments      Enrollment[]
+  outcomes         EmploymentOutcome[]
+  followUps        FollowUpLog[]
+  otpChallenges    OtpChallenge[]
+  identifiers      TraineeIdentifier[]
+  contacts         TraineeContact[]
+  consentRecords   ConsentRecord[]
+  skillAttainments TraineeSkillAttainment[]
+}
+
+model Operator {
+  id               String  @id @default(uuid())
+  userId           String  @unique
+  email            String  @unique
+  passwordHash     String
+  department       String?
+  assignedDistrict String?
+
+  user          User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  followUpsMade FollowUpLog[]
+}
+
+model Programme {
+  id          String   @id @default(uuid())
+  name        String
+  code        String   @unique
+  description String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  courses     Course[]
+  batches     Batch[]
+  enrollments Enrollment[]
+}
+
+model Provider {
+  id         String   @id @default(uuid())
+  name       String
+  district   String
+  rating     Float?
+  externalId String?  @unique
+  isVerified Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  batches     Batch[]
+  enrollments Enrollment[]
+}
+
+model Course {
+  id          String  @id @default(uuid())
+  name        String
+  code        String? @unique
+  sector      String
+  duration    Int?
+  isActive    Boolean @default(true)
+  programmeId String?
+
+  programme Programme? @relation(fields: [programmeId], references: [id])
+
+  batches      Batch[]
+  enrollments  Enrollment[]
+  courseSkills CourseSkill[]
+  assessments  Assessment[]
+}
+
+model Batch {
+  id              String      @id @default(uuid())
+  batchIdentifier String      @unique
+  courseId        String
+  providerId      String
+  programmeId     String
+  startDate       DateTime
+  plannedEndDate  DateTime
+  actualEndDate   DateTime?
+  location        String?
+  status          BatchStatus @default(PLANNED)
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  course      Course       @relation(fields: [courseId], references: [id])
+  provider    Provider     @relation(fields: [providerId], references: [id])
+  programme   Programme    @relation(fields: [programmeId], references: [id])
+  enrollments Enrollment[]
+}
+
+model Enrollment {
+  id             String           @id @default(uuid())
+  referenceCode  String           @unique @default(cuid())
+  traineeId      String
+  programmeId    String
+  providerId     String
+  courseId       String
+  batchId        String
+  status         EnrollmentStatus @default(ENROLLED)
+  enrollmentDate DateTime         @default(now())
+  completionDate DateTime?
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  // Keeping for compatibility if previously used in operator API timeline
+  certificationDate DateTime?
+
+  trainee   Trainee   @relation(fields: [traineeId], references: [id])
+  programme Programme @relation(fields: [programmeId], references: [id])
+  provider  Provider  @relation(fields: [providerId], references: [id])
+  course    Course    @relation(fields: [courseId], references: [id])
+  batch     Batch     @relation(fields: [batchId], references: [id])
+
+  assessmentAttempts      AssessmentAttempt[]
+  certifications          Certification[]
+  traineeSkillAttainments TraineeSkillAttainment[]
+  EmploymentOutcome       EmploymentOutcome[]
+
+  @@unique([traineeId, batchId])
+  @@index([traineeId])
+  @@index([batchId])
+  @@index([courseId])
+  @@index([providerId])
+  @@index([programmeId])
+  @@index([status])
+}
+
+model Employer {
+  id         String  @id @default(uuid())
+  name       String
+  district   String
+  isVerified Boolean @default(false)
+
+  outcomes EmploymentOutcome[]
+}
+
+model EmploymentOutcome {
+  id            String               @id @default(uuid())
+  referenceCode String               @unique @default(cuid())
+  traineeId     String
+  employerId    String? // Null for self-employed
+  enrollmentId  String?
+  linkageStatus OutcomeLinkageStatus @default(UNLINKED)
+  type          EmploymentType
+  startDate     DateTime
+  endDate       DateTime?
+  source        OutcomeSource        @default(OPERATOR_ENTRY)
+  
+  idempotencyKey String?
+  requestHash    String?
+
+  // DEPRECATED: Legacy compatibility only. VerificationRecord is the source of truth.
+  verificationStatus Status         @default(PENDING)
+
+  trainee    Trainee     @relation(fields: [traineeId], references: [id])
+  employer   Employer?   @relation(fields: [employerId], references: [id])
+  enrollment Enrollment? @relation(fields: [enrollmentId], references: [id])
+
+  wageSnapshots WageSnapshot[]
+  verifications VerificationRecord[]
+
+  salariedDetails       SalariedEmploymentDetails?
+  selfEmploymentDetails SelfEmploymentDetails?
+  apprenticeshipDetails ApprenticeshipDetails?
+
+  @@unique([traineeId, idempotencyKey])
+}
+
+model SalariedEmploymentDetails {
+  id        String @id @default(uuid())
+  outcomeId String @unique
+
+  outcome EmploymentOutcome @relation(fields: [outcomeId], references: [id], onDelete: Cascade)
+}
+
+model SelfEmploymentDetails {
+  id               String  @id @default(uuid())
+  outcomeId        String  @unique
+  businessName     String?
+  registrationType String?
+
+  outcome EmploymentOutcome @relation(fields: [outcomeId], references: [id], onDelete: Cascade)
+}
+
+model ApprenticeshipDetails {
+  id               String  @id @default(uuid())
+  outcomeId        String  @unique
+  portalIdentifier String?
+  contractDuration Int?
+
+  outcome EmploymentOutcome @relation(fields: [outcomeId], references: [id], onDelete: Cascade)
+}
+
+model WageSnapshot {
+  id                 String           @id @default(uuid())
+  outcomeId          String
+  wageAmount         Float
+  type               CompensationType @default(SALARY)
+  recordedDate       DateTime         @default(now())
+  retentionMilestone Int? // e.g., 30, 90, 180, 365
+
+  outcome EmploymentOutcome @relation(fields: [outcomeId], references: [id], onDelete: Cascade)
+}
+
+model VerificationRecord {
+  id                String             @id @default(uuid())
+  outcomeId         String
+  status            VerificationStatus @default(PENDING)
+  method            String?
+  source            String?
+  actorReference    String?
+  evidenceReference String?
+  reason            String?
+  verifiedAt        DateTime?
+  createdAt         DateTime           @default(now())
+
+  outcome EmploymentOutcome @relation(fields: [outcomeId], references: [id], onDelete: Cascade)
+}
+
+model FollowUpLog {
+  id            String    @id @default(uuid())
+  traineeId     String
+  operatorId    String? // Null if automated
+  method        String // SMS, CALL, WHATSAPP, IVR
+  notes         String?
+  status        Status    @default(PENDING)
+  scheduledDate DateTime
+  completedDate DateTime?
+
+  trainee  Trainee   @relation(fields: [traineeId], references: [id])
+  operator Operator? @relation(fields: [operatorId], references: [id])
+}
+
+model OtpChallenge {
+  id          String     @id @default(uuid())
+  traineeId   String
+  otpHash     String
+  purpose     OtpPurpose @default(LOGIN)
+  targetPhone String?
+  expiresAt   DateTime
+  attempts    Int        @default(0)
+  maxAttempts Int
+  consumedAt  DateTime?
+  createdAt   DateTime   @default(now())
+
+  trainee Trainee @relation(fields: [traineeId], references: [id], onDelete: Cascade)
+
+  @@index([traineeId])
+  @@index([expiresAt])
+}
+
+model TraineeIdentifier {
+  id              String    @id @default(uuid())
+  traineeId       String
+  namespace       String
+  identifierType  String
+  identifierValue String
+  source          String?
+  isVerified      Boolean   @default(false)
+  validFrom       DateTime  @default(now())
+  validTo         DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  trainee Trainee @relation(fields: [traineeId], references: [id], onDelete: Cascade)
+
+  @@unique([namespace, identifierType, identifierValue])
+  @@index([traineeId])
+}
+
+model TraineeContact {
+  id              String      @id @default(uuid())
+  traineeId       String
+  contactType     ContactType
+  normalizedValue String
+  isPrimary       Boolean     @default(false)
+  isVerified      Boolean     @default(false)
+  verifiedAt      DateTime?
+  validFrom       DateTime    @default(now())
+  validTo         DateTime?
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  trainee Trainee @relation(fields: [traineeId], references: [id], onDelete: Cascade)
+
+  @@index([traineeId])
+  @@index([normalizedValue])
+}
+
+model ConsentRecord {
+  id        String         @id @default(uuid())
+  traineeId String
+  purpose   ConsentPurpose
+  status    ConsentState
+  version   String
+  grantedAt DateTime?
+  revokedAt DateTime?
+  source    String?
+  createdAt DateTime       @default(now())
+
+  trainee Trainee @relation(fields: [traineeId], references: [id], onDelete: Cascade)
+
+  @@index([traineeId])
+  @@index([traineeId, purpose])
+}
+
+model Skill {
+  id              String   @id @default(uuid())
+  code            String   @unique
+  name            String
+  description     String?
+  taxonomy        String?
+  taxonomyVersion String?
+  active          Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  courseSkills            CourseSkill[]
+  assessmentSkillResults  AssessmentSkillResult[]
+  certificationSkills     CertificationSkill[]
+  traineeSkillAttainments TraineeSkillAttainment[]
+}
+
+model CourseSkill {
+  courseId      String
+  skillId       String
+  expectedLevel String?
+  mandatory     Boolean  @default(true)
+  createdAt     DateTime @default(now())
+
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  skill  Skill  @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@id([courseId, skillId])
+  @@index([courseId])
+  @@index([skillId])
+}
+
+model Assessment {
+  id             String         @id @default(uuid())
+  referenceCode  String         @unique @default(cuid())
+  courseId       String
+  name           String
+  code           String
+  assessmentType AssessmentType
+  maxScore       Float
+  passScore      Float
+  active         Boolean        @default(true)
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  course   Course              @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  attempts AssessmentAttempt[]
+
+  @@unique([courseId, code])
+  @@index([courseId])
+}
+
+model AssessmentAttempt {
+  id                String           @id @default(uuid())
+  referenceCode     String           @unique @default(cuid())
+  assessmentId      String
+  enrollmentId      String
+  attemptNumber     Int
+  score             Float
+  percentage        Float
+  result            AssessmentResult
+  assessedAt        DateTime
+  source            ProvenanceSource
+  assessorReference String?
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+
+  assessment   Assessment              @relation(fields: [assessmentId], references: [id], onDelete: Restrict)
+  enrollment   Enrollment              @relation(fields: [enrollmentId], references: [id], onDelete: Restrict)
+  skillResults AssessmentSkillResult[]
+
+  @@unique([enrollmentId, assessmentId, attemptNumber])
+  @@index([enrollmentId])
+  @@index([assessmentId])
+}
+
+model AssessmentSkillResult {
+  assessmentAttemptId String
+  skillId             String
+  proficiencyLevel    String?
+  score               Float?
+  result              AssessmentResult
+  createdAt           DateTime         @default(now())
+
+  assessmentAttempt AssessmentAttempt @relation(fields: [assessmentAttemptId], references: [id], onDelete: Cascade)
+  skill             Skill             @relation(fields: [skillId], references: [id], onDelete: Restrict)
+
+  @@id([assessmentAttemptId, skillId])
+  @@index([assessmentAttemptId])
+  @@index([skillId])
+}
+
+model Certification {
+  id                   String              @id @default(uuid())
+  referenceCode        String              @unique @default(cuid())
+  enrollmentId         String
+  certificateReference String              @unique
+  certificateType      String
+  issuingAuthority     String
+  issuedAt             DateTime
+  validFrom            DateTime?
+  validUntil           DateTime?
+  status               CertificationStatus @default(ISSUED)
+  source               ProvenanceSource
+  createdAt            DateTime            @default(now())
+  updatedAt            DateTime            @updatedAt
+
+  enrollment Enrollment           @relation(fields: [enrollmentId], references: [id], onDelete: Restrict)
+  skills     CertificationSkill[]
+
+  @@index([enrollmentId])
+  @@index([certificateReference])
+}
+
+model CertificationSkill {
+  certificationId String
+  skillId         String
+  evidenceLevel   String?
+  alignment       CertificationAlignment @default(COURSE_ALIGNED)
+  createdAt       DateTime               @default(now())
+
+  certification Certification @relation(fields: [certificationId], references: [id], onDelete: Cascade)
+  skill         Skill         @relation(fields: [skillId], references: [id], onDelete: Restrict)
+
+  @@id([certificationId, skillId])
+  @@index([certificationId])
+  @@index([skillId])
+}
+
+model TraineeSkillAttainment {
+  id                String           @id @default(uuid())
+  referenceCode     String           @unique @default(cuid())
+  traineeId         String
+  skillId           String
+  enrollmentId      String?
+  evidenceType      EvidenceType
+  evidenceReference String
+  proficiencyLevel  String?
+  status            AttainmentStatus
+  achievedAt        DateTime
+  verifiedAt        DateTime?
+  source            ProvenanceSource
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+
+  trainee    Trainee     @relation(fields: [traineeId], references: [id], onDelete: Cascade)
+  skill      Skill       @relation(fields: [skillId], references: [id], onDelete: Restrict)
+  enrollment Enrollment? @relation(fields: [enrollmentId], references: [id], onDelete: SetNull)
+
+  @@unique([traineeId, skillId, evidenceType, evidenceReference])
+  @@index([traineeId])
+  @@index([skillId])
+  @@index([enrollmentId])
+}

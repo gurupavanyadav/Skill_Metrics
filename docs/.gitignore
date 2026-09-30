@@ -1,0 +1,50 @@
+﻿# Gitignore for docs
+# Dependencies
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+*.p12
+
+# Build output
+dist/
+build/
+coverage/
+.vite/
+.cache/
+
+# Prisma/local databases
+*.db
+*.sqlite
+*.sqlite3
+prisma/*.db
+
+# Logs and runtime files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# IDE/editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+*.swp
+.DS_Store
+
+# OS/temp files
+.tmp/
+tmp/
+*.tmp

@@ -1,0 +1,266 @@
+SIH26135_ANTIGRAVITY_TASK_LOG_INDEX
+========================================
+
+1. MASTER CHRONOLOGICAL INVENTORY
+| # | Date/Time | Mission/Phase | Task ID | Conversation Folder | Task Log Path | Purpose | Result |
+| - | --------- | ------------- | ------- | ------------------- | ------------- | ------- | ------ |
+| 1 | 2026-09-27 11:55:03 | Other SIH26135 Work | task-63 | 574b2151-50ed-4d9e-b33b-126ad05a6119 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\574b2151-50ed-4d9e-b33b-126ad05a6119\.system_generated\tasks\task-63.log | UNKNOWN | SUCCESS (Rel: ORIGINAL) |
+| 2 | 2026-09-27 12:35:39 | Other SIH26135 Work | task-34 | 44494a5d-a543-4cca-ae5d-3b61efb5c9b9 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\44494a5d-a543-4cca-ae5d-3b61efb5c9b9\.system_generated\tasks\task-34.log | UNKNOWN | SUCCESS (Rel: ORIGINAL) |
+| 3 | 2026-09-27 15:50:30 | Other SIH26135 Work | task-45 | 1081e04a-e976-4035-8095-33193d03d984 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\1081e04a-e976-4035-8095-33193d03d984\.system_generated\tasks\task-45.log | UNKNOWN | FAILED (Rel: ORIGINAL) |
+| 4 | 2026-09-27 15:50:30 | Other SIH26135 Work | task-64 | 574b2151-50ed-4d9e-b33b-126ad05a6119 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\574b2151-50ed-4d9e-b33b-126ad05a6119\.system_generated\tasks\task-64.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 5 | 2026-09-27 16:16:01 | Other SIH26135 Work | task-42 | 9041c010-56a4-420d-be35-f6d34d25a5bc | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9041c010-56a4-420d-be35-f6d34d25a5bc\.system_generated\tasks\task-42.log | UNKNOWN | FAILED (Rel: ORIGINAL) |
+| 6 | 2026-09-27 16:16:58 | Pre-Mission / Project Setup | task-55 | 9041c010-56a4-420d-be35-f6d34d25a5bc | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9041c010-56a4-420d-be35-f6d34d25a5bc\.system_generated\tasks\task-55.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 7 | 2026-09-27 17:16:31 | Other SIH26135 Work | task-18 | 8255586e-3fd4-4ff4-af62-9868c7a044df | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\8255586e-3fd4-4ff4-af62-9868c7a044df\.system_generated\tasks\task-18.log | UNKNOWN | SUCCESS (Rel: ORIGINAL) |
+| 8 | 2026-09-27 17:17:53 | Other SIH26135 Work | task-34 | 8255586e-3fd4-4ff4-af62-9868c7a044df | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\8255586e-3fd4-4ff4-af62-9868c7a044df\.system_generated\tasks\task-34.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 9 | 2026-09-27 17:26:48 | Other SIH26135 Work | task-49 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-49.log | UNKNOWN | SUCCESS (Rel: ORIGINAL) |
+| 10 | 2026-09-27 17:27:28 | Other SIH26135 Work | task-55 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-55.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 11 | 2026-09-27 17:27:47 | Other SIH26135 Work | task-62 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-62.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 12 | 2026-09-27 17:37:27 | Other SIH26135 Work | task-104 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-104.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 13 | 2026-09-27 17:38:27 | Other SIH26135 Work | task-123 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-123.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 14 | 2026-09-27 17:40:17 | Other SIH26135 Work | task-160 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-160.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 15 | 2026-09-27 17:41:31 | Other SIH26135 Work | task-176 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-176.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 16 | 2026-09-27 17:42:06 | Other SIH26135 Work | task-193 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-193.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 17 | 2026-09-27 17:55:03 | Other SIH26135 Work | task-231 | f393f5d6-f004-43b5-af06-827369d41519 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-231.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 18 | 2026-09-27 19:06:41 | Mission 3 | task-50 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-50.log | UNKNOWN | FAILED (Rel: ORIGINAL) |
+| 19 | 2026-09-27 19:10:49 | Other SIH26135 Work | task-54 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-54.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 20 | 2026-09-27 19:11:51 | Other SIH26135 Work | task-68 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-68.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 21 | 2026-09-27 19:12:16 | Other SIH26135 Work | task-77 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-77.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 22 | 2026-09-27 19:12:31 | Other SIH26135 Work | task-80 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-80.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 23 | 2026-09-27 19:14:38 | Other SIH26135 Work | task-95 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-95.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 24 | 2026-09-27 19:16:25 | Mission 3 | task-111 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-111.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 25 | 2026-09-27 19:17:57 | Other SIH26135 Work | task-124 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-124.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 26 | 2026-09-27 19:21:35 | Mission 3 | task-172 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-172.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 27 | 2026-09-27 19:22:15 | Pre-Mission / Project Setup | task-179 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-179.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 28 | 2026-09-27 19:25:19 | Other SIH26135 Work | task-209 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-209.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 29 | 2026-09-27 19:26:48 | Other SIH26135 Work | task-221 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-221.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 30 | 2026-09-28 00:16:13 | Other SIH26135 Work | task-319 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-319.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 31 | 2026-09-28 00:25:30 | Other SIH26135 Work | task-344 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-344.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 32 | 2026-09-28 00:28:15 | Other SIH26135 Work | task-353 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-353.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 33 | 2026-09-28 00:32:23 | Mission 3 | task-390 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-390.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 34 | 2026-09-28 00:33:39 | Mission 3 | task-412 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-412.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 35 | 2026-09-28 00:34:24 | Other SIH26135 Work | task-425 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-425.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 36 | 2026-09-28 00:37:41 | Mission 3 | task-454 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-454.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 37 | 2026-09-28 01:13:23 | Mission 3 | task-553 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-553.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 38 | 2026-09-28 01:15:04 | Mission 3 | task-563 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-563.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 39 | 2026-09-28 01:24:13 | Other SIH26135 Work | task-576 | 21ac7ed2-4517-4c68-9c36-f1c5a8035502 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-576.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 40 | 2026-09-28 02:25:17 | Mission 3 | task-9 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-9.log | UNKNOWN | SUCCESS (Rel: ORIGINAL) |
+| 41 | 2026-09-28 02:29:30 | Mission 3 | task-36 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-36.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 42 | 2026-09-28 02:47:05 | Mission 4 | task-81 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-81.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 43 | 2026-09-28 03:35:23 | Mission 4 | task-147 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-147.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 44 | 2026-09-28 03:36:17 | Mission 4 | task-160 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-160.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 45 | 2026-09-28 03:39:20 | Other SIH26135 Work | task-178 | fc0cb4af-6ffe-48b2-9a55-f090b61edd9f | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-178.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 46 | 2026-09-28 04:19:09 | Other SIH26135 Work | task-25 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-25.log | UNKNOWN | SUCCESS (Rel: ORIGINAL) |
+| 47 | 2026-09-28 04:22:32 | Other SIH26135 Work | task-35 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-35.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 48 | 2026-09-28 04:34:03 | Mission 4 | task-59 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-59.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 49 | 2026-09-28 04:38:08 | Other SIH26135 Work | task-66 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-66.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 50 | 2026-09-28 18:08:23 | Mission 4 | task-161 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-161.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 51 | 2026-09-28 18:08:44 | Mission 4 | task-176 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-176.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 52 | 2026-09-28 18:10:55 | Mission 4 | task-199 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-199.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 53 | 2026-09-28 18:12:11 | Mission 4 | task-217 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-217.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 54 | 2026-09-28 18:14:24 | Mission 4 | task-224 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-224.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 55 | 2026-09-28 18:16:21 | Other SIH26135 Work | task-243 | 9ced5549-9739-4540-b7da-716ef89e7b7c | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-243.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 56 | 2026-09-28 18:18:42 | Other SIH26135 Work | task-14 | 5c66a6f6-460e-4ac9-a76c-32148e7449e4 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-14.log | UNKNOWN | SUCCESS (Rel: ORIGINAL) |
+| 57 | 2026-09-28 18:21:38 | Mission 4 | task-28 | 5c66a6f6-460e-4ac9-a76c-32148e7449e4 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-28.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 58 | 2026-09-28 18:25:20 | Other SIH26135 Work | task-41 | 5c66a6f6-460e-4ac9-a76c-32148e7449e4 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-41.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 59 | 2026-09-29 05:32:55 | Mission 5A | task-46 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-46.log | UNKNOWN | FAILED (Rel: ORIGINAL) |
+| 60 | 2026-09-29 05:33:40 | Mission 5A | task-58 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-58.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 61 | 2026-09-29 05:34:41 | Mission 5A | task-76 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-76.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 62 | 2026-09-29 05:36:05 | Mission 5A | task-85 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-85.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 63 | 2026-09-29 05:36:35 | Mission 5A | task-91 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-91.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 64 | 2026-09-29 05:37:10 | Mission 5A | task-100 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-100.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 65 | 2026-09-29 05:37:34 | Mission 5A | task-106 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-106.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 66 | 2026-09-29 05:38:15 | Mission 5A | task-118 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-118.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 67 | 2026-09-29 06:23:46 | Mission 5A | task-161 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-161.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 68 | 2026-09-29 06:24:08 | Mission 5A | task-181 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-181.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 69 | 2026-09-29 06:35:00 | Mission 5A | task-201 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-201.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 70 | 2026-09-29 06:36:42 | Mission 5A | task-211 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-211.log | UNKNOWN | FAILED (Rel: RETRY/DUPLICATE) |
+| 71 | 2026-09-29 06:39:38 | Other SIH26135 Work | task-250 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-250.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 72 | 2026-09-29 06:44:11 | Mission 5A | task-278 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-278.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 73 | 2026-09-29 07:16:55 | Mission 5A | task-298 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-298.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+| 74 | 2026-09-29 07:57:21 | Mission 5A | task-333 | 67512af2-d78c-4020-9bd9-ba3f0e476376 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-333.log | UNKNOWN | SUCCESS (Rel: RETRY/DUPLICATE) |
+
+
+2. MISSION-WISE GROUPING
+
+MISSION 3
+--------------------
+task-50 | 2026-09-27 19:06:41 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-50.log | UNKNOWN | FAILED
+task-111 | 2026-09-27 19:16:25 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-111.log | UNKNOWN | FAILED
+task-172 | 2026-09-27 19:21:35 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-172.log | UNKNOWN | SUCCESS
+task-390 | 2026-09-28 00:32:23 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-390.log | UNKNOWN | FAILED
+task-412 | 2026-09-28 00:33:39 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-412.log | UNKNOWN | FAILED
+task-454 | 2026-09-28 00:37:41 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-454.log | UNKNOWN | FAILED
+task-553 | 2026-09-28 01:13:23 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-553.log | UNKNOWN | FAILED
+task-563 | 2026-09-28 01:15:04 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-563.log | UNKNOWN | SUCCESS
+task-9 | 2026-09-28 02:25:17 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-9.log | UNKNOWN | SUCCESS
+task-36 | 2026-09-28 02:29:30 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-36.log | UNKNOWN | FAILED
+
+MISSION 4
+--------------------
+task-81 | 2026-09-28 02:47:05 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-81.log | UNKNOWN | FAILED
+task-147 | 2026-09-28 03:35:23 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-147.log | UNKNOWN | FAILED
+task-160 | 2026-09-28 03:36:17 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-160.log | UNKNOWN | FAILED
+task-59 | 2026-09-28 04:34:03 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-59.log | UNKNOWN | SUCCESS
+task-161 | 2026-09-28 18:08:23 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-161.log | UNKNOWN | FAILED
+task-176 | 2026-09-28 18:08:44 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-176.log | UNKNOWN | FAILED
+task-199 | 2026-09-28 18:10:55 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-199.log | UNKNOWN | FAILED
+task-217 | 2026-09-28 18:12:11 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-217.log | UNKNOWN | FAILED
+task-224 | 2026-09-28 18:14:24 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-224.log | UNKNOWN | FAILED
+task-28 | 2026-09-28 18:21:38 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-28.log | UNKNOWN | FAILED
+
+MISSION 5A
+--------------------
+task-46 | 2026-09-29 05:32:55 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-46.log | UNKNOWN | FAILED
+task-58 | 2026-09-29 05:33:40 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-58.log | UNKNOWN | FAILED
+task-76 | 2026-09-29 05:34:41 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-76.log | UNKNOWN | FAILED
+task-85 | 2026-09-29 05:36:05 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-85.log | UNKNOWN | FAILED
+task-91 | 2026-09-29 05:36:35 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-91.log | UNKNOWN | FAILED
+task-100 | 2026-09-29 05:37:10 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-100.log | UNKNOWN | FAILED
+task-106 | 2026-09-29 05:37:34 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-106.log | UNKNOWN | FAILED
+task-118 | 2026-09-29 05:38:15 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-118.log | UNKNOWN | FAILED
+task-161 | 2026-09-29 06:23:46 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-161.log | UNKNOWN | FAILED
+task-181 | 2026-09-29 06:24:08 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-181.log | UNKNOWN | FAILED
+task-201 | 2026-09-29 06:35:00 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-201.log | UNKNOWN | FAILED
+task-211 | 2026-09-29 06:36:42 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-211.log | UNKNOWN | FAILED
+task-278 | 2026-09-29 06:44:11 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-278.log | UNKNOWN | SUCCESS
+task-298 | 2026-09-29 07:16:55 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-298.log | UNKNOWN | SUCCESS
+task-333 | 2026-09-29 07:57:21 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-333.log | UNKNOWN | SUCCESS
+
+OTHER SIH26135 WORK
+--------------------
+task-63 | 2026-09-27 11:55:03 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\574b2151-50ed-4d9e-b33b-126ad05a6119\.system_generated\tasks\task-63.log | UNKNOWN | SUCCESS
+task-34 | 2026-09-27 12:35:39 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\44494a5d-a543-4cca-ae5d-3b61efb5c9b9\.system_generated\tasks\task-34.log | UNKNOWN | SUCCESS
+task-45 | 2026-09-27 15:50:30 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\1081e04a-e976-4035-8095-33193d03d984\.system_generated\tasks\task-45.log | UNKNOWN | FAILED
+task-64 | 2026-09-27 15:50:30 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\574b2151-50ed-4d9e-b33b-126ad05a6119\.system_generated\tasks\task-64.log | UNKNOWN | FAILED
+task-42 | 2026-09-27 16:16:01 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9041c010-56a4-420d-be35-f6d34d25a5bc\.system_generated\tasks\task-42.log | UNKNOWN | FAILED
+task-18 | 2026-09-27 17:16:31 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\8255586e-3fd4-4ff4-af62-9868c7a044df\.system_generated\tasks\task-18.log | UNKNOWN | SUCCESS
+task-34 | 2026-09-27 17:17:53 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\8255586e-3fd4-4ff4-af62-9868c7a044df\.system_generated\tasks\task-34.log | UNKNOWN | SUCCESS
+task-49 | 2026-09-27 17:26:48 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-49.log | UNKNOWN | SUCCESS
+task-55 | 2026-09-27 17:27:28 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-55.log | UNKNOWN | FAILED
+task-62 | 2026-09-27 17:27:47 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-62.log | UNKNOWN | SUCCESS
+task-104 | 2026-09-27 17:37:27 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-104.log | UNKNOWN | FAILED
+task-123 | 2026-09-27 17:38:27 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-123.log | UNKNOWN | FAILED
+task-160 | 2026-09-27 17:40:17 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-160.log | UNKNOWN | FAILED
+task-176 | 2026-09-27 17:41:31 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-176.log | UNKNOWN | FAILED
+task-193 | 2026-09-27 17:42:06 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-193.log | UNKNOWN | SUCCESS
+task-231 | 2026-09-27 17:55:03 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\f393f5d6-f004-43b5-af06-827369d41519\.system_generated\tasks\task-231.log | UNKNOWN | FAILED
+task-54 | 2026-09-27 19:10:49 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-54.log | UNKNOWN | FAILED
+task-68 | 2026-09-27 19:11:51 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-68.log | UNKNOWN | FAILED
+task-77 | 2026-09-27 19:12:16 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-77.log | UNKNOWN | SUCCESS
+task-80 | 2026-09-27 19:12:31 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-80.log | UNKNOWN | FAILED
+task-95 | 2026-09-27 19:14:38 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-95.log | UNKNOWN | FAILED
+task-124 | 2026-09-27 19:17:57 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-124.log | UNKNOWN | FAILED
+task-209 | 2026-09-27 19:25:19 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-209.log | UNKNOWN | FAILED
+task-221 | 2026-09-27 19:26:48 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-221.log | UNKNOWN | SUCCESS
+task-319 | 2026-09-28 00:16:13 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-319.log | UNKNOWN | SUCCESS
+task-344 | 2026-09-28 00:25:30 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-344.log | UNKNOWN | FAILED
+task-353 | 2026-09-28 00:28:15 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-353.log | UNKNOWN | FAILED
+task-425 | 2026-09-28 00:34:24 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-425.log | UNKNOWN | SUCCESS
+task-576 | 2026-09-28 01:24:13 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-576.log | UNKNOWN | SUCCESS
+task-178 | 2026-09-28 03:39:20 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\fc0cb4af-6ffe-48b2-9a55-f090b61edd9f\.system_generated\tasks\task-178.log | UNKNOWN | SUCCESS
+task-25 | 2026-09-28 04:19:09 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-25.log | UNKNOWN | SUCCESS
+task-35 | 2026-09-28 04:22:32 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-35.log | UNKNOWN | SUCCESS
+task-66 | 2026-09-28 04:38:08 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-66.log | UNKNOWN | SUCCESS
+task-243 | 2026-09-28 18:16:21 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9ced5549-9739-4540-b7da-716ef89e7b7c\.system_generated\tasks\task-243.log | UNKNOWN | SUCCESS
+task-14 | 2026-09-28 18:18:42 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-14.log | UNKNOWN | SUCCESS
+task-41 | 2026-09-28 18:25:20 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\5c66a6f6-460e-4ac9-a76c-32148e7449e4\.system_generated\tasks\task-41.log | UNKNOWN | SUCCESS
+task-250 | 2026-09-29 06:39:38 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\67512af2-d78c-4020-9bd9-ba3f0e476376\.system_generated\tasks\task-250.log | UNKNOWN | SUCCESS
+
+PRE-MISSION / PROJECT SETUP
+--------------------
+task-55 | 2026-09-27 16:16:58 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\9041c010-56a4-420d-be35-f6d34d25a5bc\.system_generated\tasks\task-55.log | UNKNOWN | FAILED
+task-179 | 2026-09-27 19:22:15 | C:\Users\M.Guru venkata pavan\.gemini\antigravity-ide\brain\21ac7ed2-4517-4c68-9c36-f1c5a8035502\.system_generated\tasks\task-179.log | UNKNOWN | FAILED
+
+
+3. CONVERSATION-WISE GROUPING
+
+Conversation Folder: 1081e04a-e976-4035-8095-33193d03d984
+Project relevance: Yes
+Number of SIH26135 task logs: 1
+Earliest task: 2026-09-27 15:50:30
+Latest task: 2026-09-27 15:50:30
+Task IDs: task-45
+
+Conversation Folder: 21ac7ed2-4517-4c68-9c36-f1c5a8035502
+Project relevance: Yes
+Number of SIH26135 task logs: 22
+Earliest task: 2026-09-27 19:06:41
+Latest task: 2026-09-28 01:24:13
+Task IDs: task-50, task-54, task-68, task-77, task-80, task-95, task-111, task-124, task-172, task-179, task-209, task-221, task-319, task-344, task-353, task-390, task-412, task-425, task-454, task-553, task-563, task-576
+
+Conversation Folder: 44494a5d-a543-4cca-ae5d-3b61efb5c9b9
+Project relevance: Yes
+Number of SIH26135 task logs: 1
+Earliest task: 2026-09-27 12:35:39
+Latest task: 2026-09-27 12:35:39
+Task IDs: task-34
+
+Conversation Folder: 574b2151-50ed-4d9e-b33b-126ad05a6119
+Project relevance: Yes
+Number of SIH26135 task logs: 2
+Earliest task: 2026-09-27 11:55:03
+Latest task: 2026-09-27 15:50:30
+Task IDs: task-63, task-64
+
+Conversation Folder: 5c66a6f6-460e-4ac9-a76c-32148e7449e4
+Project relevance: Yes
+Number of SIH26135 task logs: 3
+Earliest task: 2026-09-28 18:18:42
+Latest task: 2026-09-28 18:25:20
+Task IDs: task-14, task-28, task-41
+
+Conversation Folder: 67512af2-d78c-4020-9bd9-ba3f0e476376
+Project relevance: Yes
+Number of SIH26135 task logs: 16
+Earliest task: 2026-09-29 05:32:55
+Latest task: 2026-09-29 07:57:21
+Task IDs: task-46, task-58, task-76, task-85, task-91, task-100, task-106, task-118, task-161, task-181, task-201, task-211, task-250, task-278, task-298, task-333
+
+Conversation Folder: 8255586e-3fd4-4ff4-af62-9868c7a044df
+Project relevance: Yes
+Number of SIH26135 task logs: 2
+Earliest task: 2026-09-27 17:16:31
+Latest task: 2026-09-27 17:17:53
+Task IDs: task-18, task-34
+
+Conversation Folder: 9041c010-56a4-420d-be35-f6d34d25a5bc
+Project relevance: Yes
+Number of SIH26135 task logs: 2
+Earliest task: 2026-09-27 16:16:01
+Latest task: 2026-09-27 16:16:58
+Task IDs: task-42, task-55
+
+Conversation Folder: 9ced5549-9739-4540-b7da-716ef89e7b7c
+Project relevance: Yes
+Number of SIH26135 task logs: 10
+Earliest task: 2026-09-28 04:19:09
+Latest task: 2026-09-28 18:16:21
+Task IDs: task-25, task-35, task-59, task-66, task-161, task-176, task-199, task-217, task-224, task-243
+
+Conversation Folder: f393f5d6-f004-43b5-af06-827369d41519
+Project relevance: Yes
+Number of SIH26135 task logs: 9
+Earliest task: 2026-09-27 17:26:48
+Latest task: 2026-09-27 17:55:03
+Task IDs: task-49, task-55, task-62, task-104, task-123, task-160, task-176, task-193, task-231
+
+Conversation Folder: fc0cb4af-6ffe-48b2-9a55-f090b61edd9f
+Project relevance: Yes
+Number of SIH26135 task logs: 6
+Earliest task: 2026-09-28 02:25:17
+Latest task: 2026-09-28 03:39:20
+Task IDs: task-9, task-36, task-81, task-147, task-160, task-178
+
+
+4. SUMMARY
+Total brain folders scanned: 24
+Total task logs discovered: 106
+Total task logs classified as SIH26135: 74
+Total unrelated task logs: 32
+Total uncertain logs: 0
+Earliest detected SIH26135 task: 2026-09-27 11:55:03
+Latest detected SIH26135 task: 2026-09-29 07:57:21
+Number of distinct conversations: 11
+Number of task logs: 74
+Number of successful tasks: 27
+Number of failed tasks: 47

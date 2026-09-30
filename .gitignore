@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Build output and test artifacts
+dist/
+build/
+coverage/
+.vite/
+.cache/
+.nyc_output/
+
+# Local databases and database exports
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+*.sql.gz
+prisma/*.db
+database-dumps/
+
+# Logs, uploads, archives, and local generated files
+logs/
+*.log
+uploads/
+*.zip
+*.tar
+*.tar.gz
+inventory.json
+
+# IDE/editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+*.swp
+*.swo
+
+# OS/temp files
+.DS_Store
+Thumbs.db
+.tmp/
+tmp/
+*.tmp
+
+# Agent / Task specific files
+SECURITY.md
+mission_p1_3_task_log.md
+GIT_HYGIENE_START_HERE.md
+ANTIGRAVITY_TASK_PROMPT.md
+AGENTS.md
